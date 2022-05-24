@@ -14,6 +14,7 @@ public class Microservice1Application {
 
     @RestController
     class MsTestController{
+        // comment
         @GetMapping("api/test/message")
         public String displayMessage(){
             return "This is message from MS1";
